@@ -1,0 +1,33 @@
+<section class="card">
+  <p class="eyebrow">Health calculator</p>
+  <h1>Check your BMI</h1>
+  <p class="intro">Enter your details to calculate your body mass index.</p>
+
+  <form id="bmi-form">
+    <label>
+      Full name
+      <input id="name" name="name" type="text" placeholder="e.g. Alex Morgan" autocomplete="name" required>
+    </label>
+
+    <label>
+      Date of birth
+      <input id="dob" name="dob" type="date" required>
+    </label>
+
+    <div class="row">
+      <label>
+        Weight (kg)
+        <input id="weightKg" name="weightKg" type="number" min="1" step="0.1" placeholder="70" required>
+      </label>
+
+      <label>
+        Height (cm)
+        <input id="heightCm" name="heightCm" type="number" min="1" step="0.1" placeholder="175" required>
+      </label>
+    </div>
+
+    <button type="submit">Calculate BMI</button>
+  </form>
+
+  <section id="result" class="result" aria-live="polite"></section>
+</section>

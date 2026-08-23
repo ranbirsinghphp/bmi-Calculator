@@ -1,0 +1,21 @@
+{
+  "name": "bmi_calculator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "BMI Calculator",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
